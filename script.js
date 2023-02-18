@@ -46,7 +46,7 @@ rollDice.addEventListener('click' , function () {
  
 
   randomDice = Math.floor(Math.random() * (7-1) + 1)  ;
-  diceImg.src = "/dice-" + randomDice +".png" ; 
+  diceImg.src = "dice-" + randomDice +".png" ; 
   diceImg.style.display = 'block';
 
   if(randomDice === 1 && checkPlayerOne) {
