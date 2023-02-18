@@ -1,0 +1,124 @@
+* {
+  margin: 0; 
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+
+
+body {
+  height: 100vh;
+  background: linear-gradient(to top left, #753682  , #bf2e34  );
+}
+
+main .box {
+  position: absolute;
+  top: 50%; 
+  left: 50%;
+  transform: translate(-50% , -50%);
+  background:linear-gradient(90deg ,  rgb(219, 173, 180) 50% , rgb(158, 95, 105) 50% );
+  width: 70%;
+  height: 80%;
+  box-shadow: 0 3px 5px rgba(0, 0, 0, 0.8);
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  text-align: center;
+  border-radius: 8px;
+}
+
+
+main .box h2{
+ margin-top: 70px;
+ font-size: 40px;
+ font-weight: lighter;
+ color: rgb(50, 48, 48);
+}
+
+main .box .player1-score , .player2-score{
+  line-height: 3;
+  font-size: 60px;
+  color: rgb(199,39,66);
+ }
+
+
+main .box .current {
+  width: 120px;
+  height: 80px;
+  background-color: rgb(199, 39, 66);
+  margin-left: 165px;
+  color: white;
+  border-radius: 5px; 
+  margin-top: 40px;
+}
+
+
+main .current p {
+  line-height: 3;
+}
+
+button {
+  position: absolute;
+  padding: 10px;
+  border: none;
+  border-radius: 20px;
+  cursor: pointer;
+  color: rgb(70, 67, 67);
+  transition: 0.3;
+  opacity: 0.8;
+  box-shadow: 0 3px 5px ;
+}
+
+
+button:active {
+  background-color: #3e8e41;
+  box-shadow: 0 5px #666;
+  transform: translateY(5px);
+}
+
+
+
+.new-game  {
+  left: 45.5%;
+  top: 20%;
+}
+
+
+.roll-dice  {
+  left: 45.5%;
+  top: 65%;
+}
+
+.hold  {
+  left: 46.8%;
+  top: 80%;
+}
+
+
+ img {
+  position: absolute;
+  left: 47.4%;
+  top: 40%;
+  height: 70px;
+  width: 70px;
+  box-shadow: 0 3px 5px rgba(0, 0, 0, 0.4);
+  display: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
